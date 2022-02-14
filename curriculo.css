@@ -1,0 +1,114 @@
+body {
+    background-color: lightblue;
+}
+
+h3{
+    font-family: Adale Mono, monospace;
+}
+
+.Principal{
+background-color: white;
+margin: 0 200px 0 200px;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 60%;
+}
+
+.lado_esquerdo{
+    background-color: #355586;
+    border: 2px solid white;
+}
+
+.lado_direito {
+    border: 2px solid #355586;
+}
+
+
+.foto_perfil{
+    margin: 50px -10px 50px 110px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.material-icons.icone_branco{
+    color: white;
+}
+
+.bloco_informação{
+display: flex;
+flex-direction: row;
+margin-left: 35px;
+margin-bottom: 16px;
+width: 100%;
+align-items: center;
+}
+
+.descrição{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: adele mono, monospace;
+    margin-left: 16px;
+}
+
+.name{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16px;
+    text-decoration: underline;
+}
+
+.name2{
+    font-size: 25px;
+    color: black;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.line{
+    color: #355586;
+    border: 2px solid;
+}
+
+.linkedin{
+    color: white;
+}
+
+.sub{
+    margin-left: 20px;
+}
+
+.escolaridade{
+    font-size: 17px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 18px;
+}
+
+.profissional{
+    font-size: 17px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 18px;
+}
+
+.sub2{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-decoration: underline;
+}
